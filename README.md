@@ -35,7 +35,7 @@ We use an "action" to echo the HTML content.
     $job->addFilter($filter);
 
     // Action
-    $action = new \NMC\Migration\Action\Echo();
+    $action = new \NMC\Migration\Action\Imitate();
     $job->addAction($action);
 
     // Run job
