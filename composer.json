@@ -1,0 +1,25 @@
+
+{
+    "name": "nmcteam/migration",
+    "type": "library",
+    "description": "A migration framework to move content from source to destination",
+    "keywords": ["migration","migrate","filter","action","job","content"],
+    "homepage": "http://github.com/nmcteam/migrate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Lockhart",
+            "email": "josh@newmediacampaigns.com",
+            "homepage": "http://www.newmediacampaigns.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-0": { "NMC": "src" }
+    }
+}
